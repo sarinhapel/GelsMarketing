@@ -18,7 +18,7 @@ nav{
     display: flex;         /* deixa tudo em linha */
     align-items: center;   /* centraliza na vertical */
     justify-content: space-between; /* separa logo de menu */
-     padding: 10px 20px; /* Preenchimento */
+     padding: 2px 2px; /* Preenchimento */
 }
 
 nav ul {
@@ -71,7 +71,7 @@ main {
 .rodape {
   background-color: black;
   color: white;
-  padding: 15px 20px;
+  padding: 2px 5px 5px;
 
   display: flex;
   align-items: center;
@@ -101,3 +101,4 @@ main {
   width: 24px;
   height: 24px;
 }
+
