@@ -1,3 +1,4 @@
+
             /*---ESTILO GERAL DO CORPO--*/
     body{
         margin: 0; /*Margin*/
@@ -105,6 +106,35 @@ main {
 
 /* SOBRE */
 
-div{
+ .Missao{
   background-color: black;
+  width: 300px;
+  margin: auto;
+  border-radius: 10px;
+  color: white;
+  text-align: center;
 }
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.valores{
+    display: flex;         /* coloca as divs lado a lado */
+    justify-content: center;   /* centraliza no meio da página */
+    gap: 20px;                    /* espaçamento entre elas */
+    flex-wrap: wrap;               /* se a tela ficar pequena, elas quebram pra baixo */
+    margin-top: 40px;             /* espaço acima do bloco */
+    margin-bottom: 60px;          /* distância do rodapé */
+
+}
+
+.valor{
+  background-color: black;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  border-radius: 20px;
+  text-align: center;
+ }
